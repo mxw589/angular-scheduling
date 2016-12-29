@@ -5,10 +5,12 @@ angular
     .module("tile")
     .directive("tile", function() {
         return {
-            controller : function($attrs, $scope, TaskService){
-                $scope.taskId = $attrs.task;
-                console.log($scope.taskId);
+            controller : function($scope, TaskService){
                 $scope.task = TaskService.getTaskById($scope.taskId);
+                console.log($scope);
+            },
+            scope : {
+              taskId : '='
             },
             restrict : 'E',
             templateUrl : 'tile/tile.template.html'
