@@ -1,27 +1,29 @@
 <!doctype html>
 <html lang="en" ng-app="schedulingApp">
-  <head>
-    <meta charset="utf-8">
-    <title>Scheduling</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/css/app.css" />
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="app.module.js"></script>
-    <script src="app.config.js"></script>
-    <script src="shared/core.module.js"></script>
-    <script src="shared/tasks/tasks.module.js"></script>
-    <script src="shared/tasks/tasks.service.js"></script>
-    <script src="tile-grid/tile-grid.module.js"></script>
-    <script src="tile-grid/tile-grid.component.js"></script>
-    <script src="assets/js/Task.js"></script>
-    <script src="assets/js/User.js"></script>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Scheduling</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="shared/core.module.js"></script>
+  <script src="shared/tasks/tasks.module.js"></script>
+  <script src="shared/tasks/tasks.service.js"></script>
+  <script src="tile-grid/tile-grid.module.js"></script>
+  <script src="tile-grid/tile-grid.component.js"></script>
+  <script src="tile/tile.module.js"></script>
+  <script src="tile/tile.directive.js"></script>
+  <script src="assets/js/Task.js"></script>
+  <script src="assets/js/User.js"></script>
+</head>
+<body>
 
-    <div ng-view></div>
+<div ng-view></div>
 
-  </body>
+</body>
 </html>

@@ -1,8 +1,5 @@
 <div>
-    <ul>
-        <li ng-repeat="task in $ctrl.tasks">
-            <span>{{ task.title }}</span>
-            <p>{{ task.description }}</p>
-        </li>
-    </ul>
+    <div ng-repeat="task in $ctrl.tasks">
+        {{ task.id }}
+    </div>
 </div>

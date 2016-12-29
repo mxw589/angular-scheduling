@@ -3,5 +3,6 @@
  */
 angular.module("tileGrid", [
     "ngRoute",
-    "shared.tasks"
+    "shared.tasks",
+    "tile"
 ]);

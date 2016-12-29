@@ -12,10 +12,10 @@ angular
 
         var self = this;
         init();
-        this.test = "TEST";
 
         function init() {
             self.tasks = TaskService.getAliveTasks();
+            console.log(self.tasks);
         }
     }]
 

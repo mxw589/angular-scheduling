@@ -1,5 +1,6 @@
 angular.module('schedulingApp', [
-  'ngRoute',
-  'shared',
-  'tileGrid'
+    'ngRoute',
+    'shared',
+    'tileGrid',
+    'tile'
 ]);

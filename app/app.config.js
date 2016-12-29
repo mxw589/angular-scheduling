@@ -1,13 +1,13 @@
 angular.
-  module('schedulingApp').
-  config(['$locationProvider' ,'$routeProvider',
+module('schedulingApp').
+config(['$locationProvider' ,'$routeProvider',
     function config($locationProvider, $routeProvider) {
-      $locationProvider.hashPrefix('!');
+        $locationProvider.hashPrefix('!');
 
-      $routeProvider.
+        $routeProvider.
         when('/tiles', {
-          template: '<tile-grid></tile-grid>'
-        }).
-        otherwise('/tiles');
+            template: '<tile-grid></tile-grid>'
+        })
+        .otherwise('/tiles');
     }
-  ]);
+]);

@@ -1,7 +1,4 @@
 /**
- * Created by Mark on 28/12/2016.
- */
-/**
  * Created by Mark on 26/12/2016.
  */
 angular.module("shared.tasks")
@@ -47,5 +44,13 @@ angular.module("shared.tasks")
                 }
             }
         };
+
+        this.getTaskById = function(id){
+            for(var i = 0; i < tasks.length; i++){
+                if(tasks[i].id === id){
+                    return tasks[i];
+                }
+            }
+        }
 
     }]);
