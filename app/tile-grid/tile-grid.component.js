@@ -15,7 +15,6 @@ angular
 
         function init() {
             self.tasks = TaskService.getAliveTasks();
-            console.log(self.tasks);
         }
     }]
 
